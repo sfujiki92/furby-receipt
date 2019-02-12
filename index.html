@@ -1,0 +1,70 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>FurbySite</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>DefinitelyNotFurbies</h1>
+        <p>hehehehehehe</p>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h1>Please enter your shipping information:</h1>
+          <div id="blanks">
+            <form>
+              <div class="form-group">
+                <label for="name">First and Last Name</label>
+              </div>
+              <input id="name" class="form-control" type="text">
+              <div class="form-group">
+                <label for="address">Address</label>
+              </div>
+              <input id="address" class="form-control" type="text">
+              <div class="form-group">
+                <label for="city">City</label>
+              </div>
+              <input id="city" class="form-control" type="text">
+              <div class="form-group">
+                <label for="state">State</label>
+              </div>
+              <input id="state" class="form-control" type="text">
+              <div class="form-group">
+                <label for="zipcode">Zip Code</label>
+              </div>
+              <input id="zipcode" class="form-control" type="text">
+              <div class="form-group">
+                <label for="card">Credit Card Number</label>
+              </div>
+              <input id="card" class="form-control" type="text">
+              <button type="submit" class="btn">Place Order</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div id="receipt">
+            <p>Thank you for purchasing the Limited Edition Furby!</p>
+            <img src="img/furby.jpeg" alt="pink furby">
+            <p>Your order will be sent to:</p>
+            <p class="name"></p>
+            <p class="address"></p>
+            <p class="city"></p>
+            <p class="state"></p>
+            <p class="zipcode"></p>
+
+            <p>$1,500 will be charged on your Visa <span class="card"></span></p>
+
+            <p>Thank you for your purchase!</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+#receipt {
+  display: none;
+}
+.jumbotron {
+  text-align: center;
+}
+
+
+label {
+  padding-bottom: 1px;
+}
+
+img {
+  height: 500px;
+  width: 100%;
+}
+
+p {
+  text-align: center;
+}
